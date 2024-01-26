@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="menu container">
+            <img src="img/dr-israel-villarreal-isotipo.svg" class="logo1" href="#">
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu-btn.svg" class="menu-ico" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#acerca">ACERCA DE MI</a></li>
+                    <li><a href="#servicios">MIS SERVICIOS</a></li>
+                    <li><a href="#testimonios">TESTIMONIOS</a></li>
+                    <li><a href="#galeria">GALERÍA</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="dr-israel-villarreal">
+        <!-- ACERCA DE MI -->
+        <h1 class="titulo" id="acerca">ACERCA DE MI</h1>
+        <div class="acerca-container">
+            <div class="acerca-card">
+                <img src="img/dr-israel-villarreal.jpg">
+            </div>
+            <div class="acerca-card2">
+                <img src="img/dr-israel-villarreal-logotipo.svg" class="logotipo">
+                <h2>Dr. Israel S. Villarreal del Bosque</h2>
+                <p>Médico Especialista en Radiología e Imagen<br>
+                    Alta Especialidad en Radiología Vascular e Intervencionista<br><br>
+                    CP. UANL: 10896080<br>
+                    CE. UANL: 13126471<br><br>
+                    <img src="https://cdn0.iconfinder.com/data/icons/essentials-solid-glyphs-vol-1/100/Email-Letter-Mail-256.png"
+                        alt="Correo electrónico" style="height: 15px; margin-bottom: -3px;">
+                    dr.israel.radiologo@gmail.com<br>
+                    <img src="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/phone-256.png"
+                        alt="Teléfono" style="height: 15px; margin-bottom: -3px;"> (+52) 81 1225 6437
+                    <br><br>Soy el Dr. Israel S. Villarreal del Bosque. Radiólogo intervencionista. Me especializo en
+                    procedimientos quirúrgicos mínimamente invasivos.
+
+                    <br><br>Me formé en la Universidad Autónoma de Nuevo León como Médico Cirujano y Partero,
+                    posteriormente hice mis estudios de especialidad en Imagen diagnóstica y terapéutica (Radiología)
+                    así como una subespecialidad en Radiología Intervencionista.
+                    Tuve la oportunidad de estar en 2 grandes Hospitales en Milán, Italia: El Instituto Europeo de
+                    Oncología y el Hospital Policlínico de Milán, en donde reforcé y me actualicé en conocimientos
+                    oncológicos y vasculares de Radiología Intervencionista.
+
+                    <br><br>Realizo procedimientos ambulatorios y en hospital como lo son: biopsias percutáneas,
+                    catéteres vasculares y percutáneos, nefrostomías, derivaciones biliares, ablaciones tumorales,
+                    quimioembolizaciones, entre muchos otros. Adicionalmente realizo ultrasonidos diagnósticos,
+                    ultrasonidos vasculares e interpretación de estudios de imagen seccionales (tomografía, resonancia
+                    magnética, etc).
+
+                </p>
+            </div>
+        </div>
+        <!-- MIS SERVICIOS -->
+        <h1 class="titulo" id="servicios">MIS SERVICIOS</h1>
+        <div class="servicios-container">
+            <div class="servicios-card">
+                <img src="img/01.webp">
+                <h2>Biopsia de Tiroides (BAAF)</h2>
+                <p>Precisa biopsia de tiroides para diagnósticos seguros.</p>
+            </div>
+            <div class="servicios-card">
+                <img src="img/06.webp">
+                <h2>Paracentesis</h2>
+                <p>Alivio rápido con paracentesis experta.</p>
+            </div>
+            <div class="servicios-card">
+                <img src="img/03.webp">
+                <h2>Catéter Puerto Vascular para Quimioterapia (Port-a-cath)</h2>
+                <p>Facilitamos quimioterapia con comodidad.</p>
+            </div>
+            <div class="servicios-card">
+                <img src="img/04.webp">
+                <h2>Quimioembolizaciones Hepáticas</h2>
+                <p>Tratamiento hepático avanzado y efectivo.</p>
+            </div>
+            <div class="servicios-card">
+                <img src="img/05.webp">
+                <h2>Ablaciones de Tumores</h2>
+                <p>Eliminación segura de tumores.</p>
+            </div>
+            <div class="servicios-card">
+                <img src="img/06.webp">
+                <h2>Ultrasonido Doppler de Pene con Estimulación (Caverject)</h2>
+                <p>Privacidad en evaluaciones masculinas.</p>
+            </div>
+        </div>
+        <!-- ACORDEONES  -->
+        <!-- ACORDEÓN 1 -->
+        <div class="contenedor-acordeon">
+            <div class="acordeon" onclick="toggleAcordeon(event)">
+                <input type="checkbox" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
+                <label for="btn-acordeon1" class="label-acordeon">
+                    RADIOLOGÍA INTERVENCIONISTA
+                </label>
+                <div class="contenido-acordeon">
+                    <p>Descubre la excelencia en Radiología Intervencionista. Nuestros procedimientos mínimamente
+                        invasivos, guiados por imágenes, ofrecen diagnósticos y tratamientos de última generación.
+                        <br>Desde terapias fluoroscópicas hasta intervenciones con tomografía y resonancia magnética,
+                        abordamos diversas condiciones con precisión. <br>Confía en nosotros para soluciones innovadoras
+                        en Radiología Intervencionista, fusionando tecnología de punta con atención clínica de alta
+                        calidad.</p>
+                    <!-- ACORDEÓN SECUNDARIO -->
+                    <div class="acordeonb" onclick="toggleAcordeonb(event)">
+                        BIOPSIAS
+                        <div class="contenido-acordeonb">
+                            <ul>
+                                <li>Biopsia de tiroides (BAAF)</li>
+                                <li>Biopsia de hígado</li>
+                                <li>Biopsia hepática transyugular</li>
+                                <li>Biopsia de riñón</li>
+                                <li>Biopsia de ganglio linfático</li>
+                                <li>Biopsia de mama</li>
+                                <li>Biopsia de pulmón</li>
+                                <li>Biopsia de próstata</li>
+                                <li>Biopsia de páncreas</li>
+                                <li>Biopsia de hueso</li>
+                                <li>Otras</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- ACORDEÓN SECUNDARIO -->
+                    <div class="acordeonb" onclick="toggleAcordeonb(event)">
+                        DRENAJES
+                        <div class="contenido-acordeonb">
+                            <ul>
+                                <li>Paracentesis (drenaje de ascitis)</li>
+                                <li>Toracocentesis (drenaje de líquido pleural)</li>
+                                <li>Drenaje de quistes tiroideos</li>
+                                <li>Drenaje de cavidad abdominal</li>
+                                <li>Drenaje de absceso hepático</li>
+                                <li>Drenaje de absceso renal</li>
+                                <li>Drenaje de absceso pulmonar</li>
+                                <li>Drenaje de colecciones abdominales</li>
+                                <li>Drenaje de quistes hepáticos</li>
+                                <li>Drenaje de quistes pancreáticos</li>
+                                <li>Drenaje de colecciones retroperitoneales</li>
+                                <li>Drenaje de colecciones pélvicas</li>
+                                <li>Drenaje de colecciones musculoesqueléticas</li>
+                                <li>Drenaje de colecciones subcutáneas</li>
+                                <li>Drenaje de vía biliar (derivación biliar)</li>
+                                <li>Litotricia de la vía biliar con Spyglass</li>
+                                <li>Plastia de la vía biliar con y sin stent</li>
+                                <li>Nefrostomías percutáneas</li>
+                                <li>Colocación de catéteres doble “J” por vía anterógrada</li>
+                                <li>Otras</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- ACORDEÓN SECUNDARIO -->
+                    <div class="acordeonb" onclick="toggleAcordeonb(event)">
+                        CATÉTERES
+                        <div class="contenido-acordeonb">
+                            <ul>
+                                <li>Catéter venoso central</li>
+                                <li>Catéter puerto vascular para quimioterapia (Port-a-cath)</li>
+                                <li>Catéter tunelado para hemodiálisis</li>
+                                <li>Catéter venoso central periférico (PICC)</li>
+                                <li>Otros</li>
+                        </div>
+                    </div>
+                    <!-- ACORDEÓN SECUNDARIO -->
+                    <div class="acordeonb" onclick="toggleAcordeonb(event)">
+                        PROCEDIMIENTOS VASCULARES
+                        <div class="contenido-acordeonb">
+                            <ul>
+                                <li>TIPS: Cortocircuito (shunt) portosistémico intrahepático transvenoso</li>
+                                <li>Angioplastias periféricas arteriales y venosas</li>
+                                <li>Colocación de stents periféricos arteriales y venosos</li>
+                                <li>Quimioembolizaciones hepáticas</li>
+                                <li>Embolización de próstata</li>
+                                <li>Embolización de miomas</li>
+                                <li>Muestreo venoso para diagnóstico</li>
+                                <li>Embolización prequirúrgica</li>
+                                <li>Embolización de malformaciones vasculares</li>
+                                <li>Embolización bronquial (sangrado de pulmón)</li>
+                                <li>Aneurismas de vasos sanguíneos</li>
+                                <li>Filtros de vena cava</li>
+                                <li>Tratamiento de varicocele mínimamente invasivo</li>
+                                <li>Tratamiento de síndrome de congestión pélvica</li>
+                                <li>Fístulas de hemodiálisis</li>
+                                <li>Extracción de cuerpos extraños vasculares</li>
+                                <li>Otros</li>
+                        </div>
+                    </div>
+                    <!-- ACORDEÓN SECUNDARIO -->
+                    <div class="acordeonb" onclick="toggleAcordeonb(event)">
+                        ABLACIONES
+                        <div class="contenido-acordeonb">
+                            <ul>
+                                <li>Ablación de hígado</li>
+                                <li>Ablación de riñón</li>
+                                <li>Ablación de pulmón</li>
+                                <li>Ablación de tiroides</li>
+                                <li>Ablación de mama</li>
+                                <li>Otras</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ACORDEÓN 2 -->
+            <div class="acordeon" onclick="toggleAcordeon(event)">
+                <input type="checkbox" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
+                <label for="btn-acordeon2" class="label-acordeon">
+                    ULTRASONIDOS
+                </label>
+                <div class="contenido-acordeon">
+                    <p>Explora nuestra amplia gama de servicios de Ultrasonidos, ofreciendo diagnósticos detallados en
+                        áreas como abdomen, vascular y estudios especializados.
+                        <br>Desde Ultrasonidos generales, cubriendo abdomen, pelvis y más, Ultrasonidos Doppler para
+                        evaluaciones vasculares detalladas, y Ultrasonidos Especiales, que incluyen estudios específicos
+                        como transvaginales y musculoesquelético.
+                        <br>Nuestro compromiso es proporcionar servicios de ultrasonidos de alta calidad para una
+                        atención
+                        médica integral y especializada.
+                    </p>
+                    <!-- ACORDEÓN SECUNDARIO -->
+                    <div class="acordeonb" onclick="toggleAcordeonb(event)">
+                        ULTRASONIDOS GENERALES
+                        <div class="contenido-acordeonb">
+                            <ul>
+                                <li>Ultrasonido abdomen superior</li>
+                                <li>Ultrasonido abdomen total</li>
+                                <li>Ultrasonido hepático/vías biliares</li>
+                                <li>Ultrasonido pélvico</li>
+                                <li>Ultrasonido testicular</li>
+                                <li>Ultrasonido prostático</li>
+                                <li>Ultrasonido vesico-prostático con orina residual</li>
+                                <li>Ultrasonido renal y vías urinarias</li>
+                                <li>Ultrasonido de mama</li>
+                                <li>Ultrasonido tejidos blandos</li>
+                                <li>Ultrasonido hernias</li>
+                                <li>Ultrasonido tiroides / cuello</li>
+                                <li>Ultrasonido apendicular</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- ACORDEÓN SECUNDARIO -->
+                    <div class="acordeonb" onclick="toggleAcordeonb(event)">
+                        ULTRASONIDOS DOPPLER
+                        <div class="contenido-acordeonb">
+                            <ul>
+                                <li>Ultrasonido Doppler hepático</li>
+                                <li>Ultrasonido Doppler carotídeo</li>
+                                <li>Ultrasonido Doppler arterial, miembro superior (1 o 2 extremidades)</li>
+                                <li>Ultrasonido Doppler arterial, miembro inferior (1 o 2 extremidades)</li>
+                                <li>Ultrasonido Doppler venoso, miembro superior (1 o 2 extremidades)</li>
+                                <li>Ultrasonido Doppler venoso, miembro inferior (1 o 2 extremidades)</li>
+                                <li>Ultrasonido Doppler venoso mapeo para insuficiencia venosa</li>
+                                <li>Ultrasonido Doppler renal bilateral</li>
+                                <li>Ultrasonido Doppler renal en injerto</li>
+                                <li>Ultrasonido Doppler hepático en injerto</li>
+                                <li>Ultrasonido Doppler tiroideo</li>
+                                <li>Ultrasonido Doppler testicular</li>
+                                <li>Ultrasonido Doppler de pene con estimulación (caverject)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- ACORDEÓN SECUNDARIO -->
+                    <div class="acordeonb" onclick="toggleAcordeonb(event)">
+                        ULTRASONIDOS ESPECIALES
+                        <div class="contenido-acordeonb">
+                            <ul>
+                                <li>Ultrasonido transvaginal</li>
+                                <li>Ultrasonido de tórax</li>
+                                <li>Ultrasonido de hombro</li>
+                                <li>Ultrasonido de codo</li>
+                                <li>Ultrasonido de rodilla</li>
+                                <li>Ultrasonido de muñeca</li>
+                                <li>Ultrasonido de píloro</li>
+                                <li>Ultrasonido transfontanelar</li>
+                                <li>Ultrasonido de cadera</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ACORDEÓN 3 -->
+            <div class="acordeon" onclick="toggleAcordeon(event)">
+                <input type="checkbox" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
+                <label for="btn-acordeon2" class="label-acordeon">
+                    INTERPRETACIÓN DE ESTUDIOS DE IMAGEN Y SEGUNDA OPINIÓN
+                </label>
+                <div class="contenido-acordeon">
+                    <p>Descubra la tranquilidad de obtener una interpretación precisa de sus estudios de imágenes.
+                        Ofrecemos servicios especializados de interpretación para radiografías, tomografías y
+                        resonancias magnéticas. <br>Además, brindamos segundas opiniones detalladas para aquellos
+                        estudios ya realizados. <br>Confíe en nuestro equipo de expertos radiólogos intervencionistas
+                        para obtener una evaluación exhaustiva y respuestas claras, respaldadas por experiencia y
+                        precisión en cada informe.
+                    </p>
+                    <!-- ACORDEÓN SECUNDARIO -->
+                    <div class="acordeonb" onclick="toggleAcordeonb(event)">
+                        Interpretación de radiografías, tomografías y resonancias magnéticas
+                        <div class="contenido-acordeonb">
+                            <ul>
+                                <li>Nuestro compromiso con la excelencia se refleja en la interpretación minuciosa de
+                                    sus radiografías, tomografías y resonancias magnéticas. Cada estudio es analizado
+                                    con precisión para proporcionarle un diagnóstico claro y comprensible.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- ACORDEÓN SECUNDARIO -->
+                    <div class="acordeonb" onclick="toggleAcordeonb(event)">
+                        Segundas opiniones de estudios ya realizados
+                        <div class="contenido-acordeonb">
+                            <ul>
+                                <li>Ofrecemos un enfoque colaborativo y especializado al proporcionar segundas opiniones
+                                    para estudios previamente realizados. Obtenga una perspectiva adicional y confirme
+                                    la validez de su diagnóstico con la experiencia de nuestro equipo de radiólogos
+                                    intervencionistas. Su tranquilidad es nuestra prioridad.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TESTIMONIOS -->
+        <h1 class="titulo" id="testimonios">TESTIMONIOS</h1>
+        <div class="testimonios-container">
+            <div class="testimonios-card">
+                <img src="img/planner.jpg">
+                <div class="testimonios-cardtext">
+                    <h2>Testimonio 01</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, commodi rem.</p>
+                </div>
+            </div>
+            <div class="testimonios-card">
+                <img src="img/planner.jpg">
+                <div class="testimonios-cardtext">
+                    <h2>Testimonio 02</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, commodi rem.</p>
+                </div>
+            </div>
+            <div class="testimonios-card">
+                <img src="img/planner.jpg">
+                <div class="testimonios-cardtext">
+                    <h2>Testimonio 03</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, commodi rem.</p>
+                </div>
+            </div>
+            <div class="testimonios-card">
+                <img src="img/planner.jpg">
+                <div class="testimonios-cardtext">
+                    <h2>Testimonio 04</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, commodi rem.</p>
+                </div>
+            </div>
+            <div class="testimonios-card">
+                <img src="img/planner.jpg">
+                <div class="testimonios-cardtext">
+                    <h2>Testimonio 05</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, commodi rem.</p>
+                </div>
+            </div>
+        </div>
+        <!-- GALERÍA -->
+        <h1 class="titulo" id="galeria">GALERÍA</h1>
+        <div class="galeria-container">
+            <div class="galeria-card">
+                <img src="img/g01.heic" alt="Imagen">
+                <h2>Título 01</h2>
+            </div>
+            <div class="galeria-card">
+                <img src="img/g02.heic" alt="Imagen">
+                <h2>Título 02</h2>
+            </div>
+            <div class="galeria-card">
+                <img src="img/g03.heic" alt="Imagen">
+                <h2>Título 03</h2>
+            </div>
+            <div class="galeria-card">
+                <img src="img/g04.heic" alt="Imagen">
+                <h2>Título 04</h2>
+            </div>
+            <div class="galeria-card">
+                <img src="img/g05.webp" alt="Imagen">
+                <h2>Título 05</h2>
+            </div>
+            <div class="galeria-card">
+                <img src="img/g09.webp" alt="Imagen">
+                <h2>Título 06</h2>
+            </div>
+        </div>
+        <!-- CONTACTO -->
+        <h1 class="titulo" id="contacto">CONTACTO</h1>
+        <div class="contacto-container">
+            <p class="contacto-p">Comunícate conmigo a través de mis redes sociales o e-mail para obtener una valoración
+                de tu caso</p>
+            <div class="social-icons">
+                <div class="social-icon">
+                    <a href="https://wa.me/5218112256437">
+                        <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png"
+                            alt="WhatsApp" width="100" height="100">
+                    </a>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/profile.php?id=100082693924391">
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-256.png"
+                            alt="Facebook" width="100" height="100">
+                    </a>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/dr.israel.radiologo/">
+                        <img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-256.png"
+                            alt="Instagram" width="100" height="100">
+                    </a>
+                </div>
+            </div>
+            <p class="email"><img
+                    src="https://cdn0.iconfinder.com/data/icons/essentials-solid-glyphs-vol-1/100/Email-Letter-Mail-256.png"
+                    alt="Correo electrónico" style="height: 25px; margin-bottom: -5px;"> drisrael.radiologo@gmail.com
+            </p>
+        </div>
+        <div class="form">
+            <form>
+                <label for="nombre"></label>Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre"><br>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="Introduce tu correo electrónico"><br>
+
+                <label for="telefono">Número de Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Introduce tu número de telefono"><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="3" cols="30"
+                    placeholder="Platicanos más acerca de ti"></textarea><br>
+
+                <label for="como-encontraste">¿Cómo nos encontraste?:</label>
+                <select id="como-encontraste" name="como-encontraste">
+                    <option value="buscador">Recomendación</option>
+                    <option value="redes-sociales">Redes Sociales</option>
+                    <option value="recomendacion">Google</option>
+                    <option value="otro">Otro</option>
+                </select><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="whatsapp">
+            <a href="https://wa.me/5218112256437">
+                <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png"
+                    alt="Whatsapp">
+            </a>
+        </div>
+        <div class="up-button">
+            <a href="#">
+                <span class="arrow-up"></span>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div class="piedepag">
+            <p><br><br><br>Dr. Israel Villarreal &copy; 2023</p>
+            <ul>
+                <li><a href="https://www.instagram.com/dr.israel.radiologo/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100082693924391">Facebook</a></li>
+                <li><a href="https://wa.me/5218112256437">Whatsapp Web</a></li>
+                <li><a href="#contacto">Contáctanos</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<script>
+    function toggleAcordeon(event) {
+        const seccion = event.currentTarget;
+        const checkbox = seccion.querySelector('.btn-acordeon');
+        checkbox.checked = !checkbox.checked;
+        seccion.classList.toggle('abierto');
+        const contenido = seccion.querySelector('.contenido-acordeon');
+        contenido.style.display = checkbox.checked ? 'block' : 'none';
+    }
+
+    function toggleAcordeonb(event) {
+        event.stopPropagation();
+        const seccionb = event.currentTarget;
+        seccionb.classList.toggle('abierto');
+        const contenidoB = seccionb.querySelector('.contenido-acordeonb');
+        contenidoB.style.display = contenidoB.style.display === 'block' ? 'none' : 'block';
+    }
+
+    document.querySelectorAll('.label-acordeon').forEach(function (label) {
+        label.addEventListener('click', function (event) {
+            const acordeon = this.closest('.acordeon');
+            const checkbox = acordeon.querySelector('.btn-acordeon');
+            toggleAcordeon(event);
+        });
+    });
+
+    document.querySelectorAll('.acordeonb .label-acordeonb').forEach(function (label) {
+        label.addEventListener('click', function (event) {
+            const acordeonb = this.closest('.acordeonb');
+            const checkboxb = acordeonb.querySelector('.btn-acordeonb');
+            toggleAcordeonb(event);
+        });
+    });
+
+    document.getElementById('btn-acordeon3').addEventListener('click', function (event) {
+        event.stopPropagation();
+        toggleAcordeon(event);
+    });
+</script>
